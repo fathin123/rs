@@ -1,0 +1,11 @@
+CREATE TABLE `pasien` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nama` varchar(100) DEFAULT NULL,
+  `alamat` varchar(100) DEFAULT NULL,
+  `usia` varchar(25) DEFAULT NULL,
+  `unit` varchar(50) DEFAULT NULL,
+  `kamar` varchar(50) DEFAULT NULL,
+  `checkin` varchar(50) DEFAULT NULL,
+  `checkout` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
